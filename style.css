@@ -155,18 +155,12 @@ body {
   align-items: start;
 }
 
-.photo-placeholder {
+.profile-photo {
   width: 150px;
   height: 150px;
   border-radius: 50%;
-  background: #e8ecf1;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 1.5rem;
-  font-weight: 600;
-  color: #2d5f8a;
-  letter-spacing: 0.05em;
+  object-fit: cover;
+  object-position: center;
 }
 
 .about-text p {
