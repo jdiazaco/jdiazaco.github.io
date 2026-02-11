@@ -102,20 +102,35 @@ body {
 
 /* ===== Hero ===== */
 .hero {
-  padding: 6rem 0 4rem;
+  position: relative;
+  padding: 8rem 0 6rem;
   text-align: center;
+  background: url('il_570xN.6049486015_kmgc.avif') center/cover no-repeat;
+  background-color: #1a1a2e;
+}
+
+.hero-overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(20, 20, 35, 0.55);
+}
+
+.hero-content {
+  position: relative;
+  z-index: 1;
 }
 
 .hero h1 {
-  font-size: 2.5rem;
+  font-size: 2.75rem;
   font-weight: 600;
   letter-spacing: -0.02em;
   margin-bottom: 0.5rem;
+  color: #ffffff;
 }
 
 .hero-tagline {
-  font-size: 1.125rem;
-  color: #666;
+  font-size: 1.175rem;
+  color: rgba(255, 255, 255, 0.85);
   font-weight: 300;
 }
 
@@ -471,11 +486,15 @@ body {
   }
 
   .hero {
-    padding: 4rem 0 3rem;
+    padding: 5rem 0 4rem;
   }
 
   .hero h1 {
     font-size: 2rem;
+  }
+
+  .hero-content {
+    padding: 0 0.5rem;
   }
 
   .about-grid {
