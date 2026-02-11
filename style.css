@@ -105,7 +105,7 @@ body {
   position: relative;
   padding: 8rem 0 6rem;
   text-align: center;
-  background: url('il_570xN.6049486015_kmgc.avif') center/cover no-repeat;
+  background: url('download.webp') center/cover no-repeat;
   background-color: #1a1a2e;
 }
 
@@ -132,6 +132,16 @@ body {
   font-size: 1.175rem;
   color: rgba(255, 255, 255, 0.85);
   font-weight: 300;
+}
+
+.hero-credit {
+  position: absolute;
+  bottom: 0.75rem;
+  right: 1rem;
+  z-index: 1;
+  color: rgba(255, 255, 255, 0.45);
+  font-size: 0.65rem;
+  letter-spacing: 0.02em;
 }
 
 /* ===== Sections ===== */
