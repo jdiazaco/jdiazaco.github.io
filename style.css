@@ -252,6 +252,20 @@ body {
   text-decoration: underline;
 }
 
+.research-subtitle {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #666;
+  margin-bottom: 1.25rem;
+}
+
+.coauthors {
+  font-style: italic;
+  color: #888 !important;
+  font-size: 0.85rem !important;
+  margin-bottom: 0.5rem !important;
+}
+
 /* ===== CV ===== */
 .cv-group {
   margin-bottom: 2.5rem;
@@ -325,6 +339,44 @@ body {
   border-radius: 1rem;
   font-size: 0.825rem;
   font-weight: 500;
+}
+
+.awards-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.awards-list li {
+  position: relative;
+  padding-left: 1rem;
+  margin-bottom: 0.6rem;
+  color: #444;
+  font-size: 0.9rem;
+}
+
+.awards-list li::before {
+  content: '\2013';
+  position: absolute;
+  left: 0;
+  color: #2d5f8a;
+}
+
+.languages {
+  margin-top: 0.75rem;
+}
+
+.languages p {
+  color: #555;
+  font-size: 0.875rem;
+}
+
+.about-text a {
+  color: #2d5f8a;
+  text-decoration: none;
+}
+
+.about-text a:hover {
+  text-decoration: underline;
 }
 
 .cv-download {
